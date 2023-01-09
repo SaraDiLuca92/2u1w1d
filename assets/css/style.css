@@ -226,3 +226,119 @@ footer {
 footer a {
   color: fuchsia;
 }
+@media screen and (min-width: 768px) {
+  table {
+    margin-left: 15em;
+  }
+  input {
+    width: 40em;
+    height: 3em;
+  }
+  p,
+  address,
+  ul,
+  ol,
+  dl,
+  blockquote {
+    margin-bottom: 1.2em;
+    margin-bottom: 10px;
+    margin-left: 9px;
+    font-size: 18px;
+  }
+  section {
+    background-color: #e3e3e3;
+    margin-bottom: 2em;
+    padding: -6em;
+    height: 11.5em;
+  }
+  button {
+    height: 3em;
+    width: 8em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  table {
+    margin-bottom: 2em;
+    width: auto;
+    text-align: center;
+    width: 50%;
+  }
+  .wide {
+    display: flex;
+    justify-content: center;
+  }
+  section {
+    border-radius: 10px;
+  }
+  section h2 {
+    background-color: darkgrey;
+    text-align: center;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  input {
+    width: 23em;
+    height: 3em;
+  }
+
+  aside {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+  .wrap {
+    display: flex;
+    align-content: stretch;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  footer {
+    background: rgb(53, 53, 53);
+    background: linear-gradient(
+      0deg,
+      rgba(53, 53, 53, 1) 0%,
+      rgba(5, 85, 103, 1) 68%
+    );
+    box-shadow: 0 3px 3px #444;
+    color: #f0f0f0;
+    padding: 3em;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  header div img {
+    width: 9em;
+    margin-top: 1em;
+    margin-bottom: 3px;
+    display: flex;
+    margin-left: 20px;
+  }
+  #ciao {
+    margin-top: -42px;
+    margin-left: -538px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: baseline;
+  }
+} ;
